@@ -248,8 +248,8 @@ public class Bewerbungsgenerator extends JFrame {
 							line = line.replace("**DATUM**", tfDatum.getText());
 							textArea.setText(textArea.getText()+line);
 							Check = true;
-						} else if(line.contains("**FIRMEDNADRESSE**")) {
-							line = line.replace("**FIRMEDNADRESSE**", taAdresse.getText());
+						} else if(line.contains("**FIRMENADRESSE**")) {
+							line = line.replace("**FIRMENADRESSE**", taAdresse.getText());
 							textArea.setText(textArea.getText()+line);
 							Check = true;
 						} else if(line.contains("**ANSPRACHE**")) {
